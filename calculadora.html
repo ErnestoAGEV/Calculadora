@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Interpolacion.</title>
+</head>
+<body>
+    <form id="miFormulario" name="" method="post">
+        <label>X0 =</label>
+        <input type="number" name="" id="valor1" autofocus
+         placeholder="Escribe la variable x0">
+        <br>
+        <br>
+        <label>f(x0) =</label>
+        <input type="number" name="" id="valor2" autofocus
+         placeholder="Escribe la variable f(x0)">
+         
+         <br>
+         <br>
+         <label>X1 =</label>
+        <input type="number" name="" id="valor3" autofocus
+         placeholder="Escribe la variable X1">
+
+         <br>
+         <br>
+         <label>f(x1) =</label>
+        <input type="number" name="" id="valor4" autofocus
+         placeholder="Escribe la variable f(x1)">
+
+         <br>
+         <br>
+         <label>X2 =</label>
+        <input type="number" name="" id="valor5" autofocus
+         placeholder="Escribe la variable X2">
+
+         <br>
+         <br>
+         <label>f(x2) =</label>
+        <input type="number" name="" id="valor6" autofocus
+         placeholder="Escribe la variable f(x2)">
+         <br>
+         <br>
+         <label>X =</label>
+        <input type="number" name="" id="valor0" autofocus
+         placeholder="Escribe la variable que deseas encontrar">
+         <br>
+         <br>
+         <button type="button" onclick="obtenerlineal();">Obtener Interpolacion Lineal</button>
+         <br>
+         <br>
+         <button type="button" onclick="obtenerCuadratica();">Obtener Interpolacion Cuadratica</button>
+         <br>
+         <br>
+         <button onclick="limpiar();"> Limpiar Campos.</button> 
+
+
+    </form>
+
+
+    <script type="text/javascript" src="js/funciones.js"></script>
+</body>
+</html>
