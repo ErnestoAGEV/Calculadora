@@ -1,0 +1,66 @@
+.boton-moderno {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 12px 24px; /* Espacio alrededor del texto del botón */
+    border: none; /* Borde del botón */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor a un puntero cuando el usuario pasa el mouse sobre el botón */
+    transition: background-color 0.3s ease; /* Agrega una transición suave al color de fondo cuando el usuario pasa el mouse sobre el botón */
+  }
+  
+  .boton-moderno:hover {
+    background-color: #3e8e41; /* Cambia el color de fondo del botón cuando el usuario pasa el mouse sobre él */
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    background-image: linear-gradient(45deg, #e9a7c9, #a2ceff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  input {
+    border: none;
+    background-color: #f0f0f0;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+  label {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #miformulario1{
+    display: flex;
+    text-align: center;
+  }
+
+  
+    
+  
+  
+  
