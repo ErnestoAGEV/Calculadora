@@ -1,5 +1,6 @@
 function limpiar() {
-    document.getElementById('miFormulario1').reset();
+    document.reset();
+    alert('se limpiaron los campos');
 }
 
 function obtenerlineal() {
