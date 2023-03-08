@@ -12,9 +12,5 @@ function obtenerCuadratica() {
   var x2 = parseInt(document.getElementById('valor5').value);
   var fx2 = parseInt(document.getElementById('valor6').value);
 
-  let b0 =fx0;
-  let b1 =(fx1-fx0)/(x1-x0);
-  let b2 =(((fx2-fx1)/(x2-x1))-((fx1-fx0)/(x1-x0)))/(x2-x0);
-
-  alert(`Tu resultado es: ${b0+b1(x-x0)+b2(x-x0)(x-x1)}`);
+  alert(`Tu resultado es: ${(((x-x1)/(x0-x1))*((x-x2)/(x0-x2)))*fx0+(((x-x0)/(x1-x0))*((x-x2)/(x1-x2)))*fx1+(((x-x0/x2-x0)*(x-x1/x2-x1)))*fx2}`);
 }

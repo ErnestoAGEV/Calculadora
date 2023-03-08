@@ -9,6 +9,5 @@ function obtenerlineal() {
     var fx0 =parseInt( document.getElementById("valor2").value);
     var x1 =parseInt( document.getElementById("valor3").value);
     var fx1 =parseInt( document.getElementById("valor4").value);
-    alert(`Tu resultado es: ${fx0+((fx1-fx0)/(x1-x0))*x-x0}`);
+    alert(`Tu resultado es: ${(x-x1/x0-x1)*fx0+((x-x0)/(x1-x0))*fx1}`);
 }
-
